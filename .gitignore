@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Docker
+*.log
+
+# Spark / JARs (large binaries — link to them in README instead)
+*.jar
+
+# Redis / data dumps
+dump.rdb
+*.rdb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
