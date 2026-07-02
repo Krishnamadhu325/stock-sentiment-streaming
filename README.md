@@ -6,6 +6,12 @@ A real-time streaming pipeline that ingests live stock price data, computes a mo
 
 This project streams live price data for **AAPL, TSLA, and GOOGL**, processes it in real time with PySpark Structured Streaming, derives a momentum-based sentiment signal, and serves everything through a 12-panel Grafana dashboard backed by Redis.
 
+## Live Dashboard
+
+![Live Stock Sentiment Dashboard](screenshots/dashboard-live.png)
+
+*Captured during NYSE market hours — showing live price movement, volume, and momentum-based sentiment (Bullish/Bearish/Neutral) across AAPL, TSLA, and GOOGL.*
+
 ## Architecture
 
 ```
