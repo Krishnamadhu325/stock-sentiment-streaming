@@ -76,7 +76,7 @@ A "Filter by name" transform isolates the `sentiment_score` field for the Stat p
      --master local[*] \
      /opt/spark-app/consumer.py
    ```
-5. Open Grafana at `http://localhost:<<GRAFANA_PORT>>` and view the dashboard
+5. Open Grafana at `http://localhost:3000` and view the dashboard
 
 ## Project Structure
 
@@ -102,4 +102,4 @@ stock-sentiment-streaming/
 
 ## License
 
-<<MIT / other — confirm your preference>>
+This project is licensed under the MIT License.
